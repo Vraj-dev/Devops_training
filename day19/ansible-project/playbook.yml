@@ -1,0 +1,8 @@
+---
+- name: Deploy Web Application
+  hosts: webserver
+  become: true
+  roles:
+    - webserver
+    - database
+    - application

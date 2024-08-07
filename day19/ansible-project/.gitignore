@@ -1,0 +1,2 @@
+echo "*.retry" > .gitignore
+echo "*.log" >> .gitignore
